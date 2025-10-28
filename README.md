@@ -73,9 +73,7 @@ source ~/.zshrc
 Clone the LazyVim configuration into your Neovim config directory :
 
 ```bash
-https://github.com/GourangaDasSamrat/my-nvim-config.git ~./config
-cd ~./config
-mv my-nvim-config nvim
+https://github.com/GourangaDasSamrat/my-nvim-config.git ~/.config/nvim
 ```
 
 ---
