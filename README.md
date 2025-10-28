@@ -68,13 +68,14 @@ source ~/.zshrc
 
 ---
 
-## Install LazyVim starter and delete .git folder
+## Install my LazyVim congih
 
-Clone the LazyVim starter configuration into your Neovim config directory and remove its Git history so you can manage your config as a fresh repository:
+Clone the LazyVim configuration into your Neovim config directory :
 
 ```bash
-git clone https://github.com/LazyVim/starter ~/.config/nvim
-rm -rf ~/.config/nvim/.git
+https://github.com/GourangaDasSamrat/my-nvim-config.git ~./config
+cd ~./config
+mv my-nvim-config nvim
 ```
 
 ---
